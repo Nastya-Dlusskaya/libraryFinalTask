@@ -1,6 +1,6 @@
-package main.by.epam.library.model.command;
+package by.epam.library.model.command;
 
-import main.by.epam.library.model.entity.TypePerson;
+import by.epam.library.model.entity.TypePerson;
 
 public class PageFactory {
     public String createPage(TypePerson typePerson){
@@ -12,7 +12,7 @@ public class PageFactory {
             case LIBRARIAN:
                 return ConfigurationManager.getProperty("path.page.librarian");
             default:
-                return ConfigurationManager.getProperty("path.page.index");
+                return ConfigurationManager.getProperty("path.page.login");
         }
     }
 }

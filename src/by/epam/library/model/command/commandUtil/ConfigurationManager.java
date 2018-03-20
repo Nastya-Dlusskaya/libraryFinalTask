@@ -1,4 +1,4 @@
-package main.by.epam.library.model.command;
+package by.epam.library.model.command;
 
 import java.util.ResourceBundle;
 

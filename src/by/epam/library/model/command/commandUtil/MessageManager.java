@@ -1,9 +1,9 @@
-package main.by.epam.library.model.command;
+package by.epam.library.model.command;
 
 import java.util.ResourceBundle;
 
 public class MessageManager {
-    private final static ResourceBundle RESOURCE_BUNDLE = ResourceBundle.getBundle("message");
+    private final static ResourceBundle RESOURCE_BUNDLE = ResourceBundle.getBundle("resources/message");
 
     private MessageManager() {
     }
